@@ -27,7 +27,6 @@ def send_welcome(message):
     bot.reply_to(message, "люблю!")
 
 
-
 @bot.message_handler(func=lambda message: message.text == "Key")
 def echo_message(message):
     bot.reply_to(message, message.text)
